@@ -15,8 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10% 20px 10%;
-    background-color: #06214D;
+    padding: 20px 5% 20px 5%;
 }
 .navbar-links {
     list-style: none;
@@ -41,9 +40,13 @@ header {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     color: #ffffff;
+    padding: 10px 15px;
+    background-color: #0216367a;
+    border-radius: 25px;
 }
 .navbar-links li a:hover {
     color: rgb(210, 210, 233);
+    background-color: #021636;
 }
 
 .logo {
