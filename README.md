@@ -1,3 +1,3 @@
 # binary-bit-lab.github.io
 
-Currently W>I>P
+The Official Website, For Binary Bit Lab.
