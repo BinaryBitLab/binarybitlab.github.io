@@ -1,3 +1,3 @@
 # binary-bit-lab.github.io
 
-The Official Website, For Binary Bit Lab.
+The Official Website, For Binary Bit Lab. (Not Finished..)
