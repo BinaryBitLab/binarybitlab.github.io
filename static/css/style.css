@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+:root {
+    --text: #ffffff;
+    --background: #080606;
+    --primary: #db0550;
+    --secondary: #1e618a;
+    --accent: #1fe2f3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.brand {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links li {
+    font-size: 1.2rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--text);
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: var(--primary);
+}
+
+.login-btn {
+    background-color: var(--background);
+    color: var(--text);
+    border: 1px solid var(--primary);
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1.2rem;
+}
+
+.login-btn:hover {
+    background-color: var(--primary);
+}
