@@ -91,3 +91,18 @@ nav {
 .login-btn:hover {
     background-color: var(--primary);
 }
+
+main {
+    padding: 5rem 2.5%;
+}
+
+.info {
+    padding: 5rem 2.5%;
+    margin-right: 50%;
+}
+
+.info h1 {
+    background: -webkit-linear-gradient(left, var(--primary), var(--secondary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
